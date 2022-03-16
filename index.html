@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/script.js" defer></script>
+    <link href="style.css" rel="stylesheet">   
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <div id="calculadora">
+
+        <div  id="aparenciaVisor"> 
+
+            <p id="visor"> </p>
+
+        </div>
+
+        <div id="operações">
+
+        <button type="button" id="deletar" onclick="deletar()" ><h2> C</h2>
+        </button>
+
+        <button type="button" id="mais" onclick="insert('+')">
+            <h2> + </h2>
+        </button>
+        <button type="button" id="menos" onclick="insert('-')">
+            <h2> - </h2>
+        </button>
+        <button type="button" id="dividir" onclick="insert('/')">
+            <h2> / </h2>
+        </button>
+        <button type="button" id="multiplicar" onclick="insert('*')">
+            <h2> X </h2>
+
+        </button>  
+        <button type="button" id="igual" onclick="calcular()">
+            <h2> = </h2>
+
+        </button> 
+      </div> 
+      <form id="numeros" >
+        <button type="button"id="um" onclick="insert('1')" >1</button>
+            <button type="button" id="dois" onclick="insert('2')">2</button>
+                <button type="button" id="tres"  onclick="insert('3')"> 3</button>
+                    <button type="button" id="quatro"  onclick="insert('4')"> 4</button>
+                        <button type="button" id="cinco" onclick="insert('5')">5</button>
+                            <button type="button" id="seis" onclick="insert('6')">6 </button>
+                                <button type="button"id="sete"  onclick="insert('7')">7 </button>
+                                    <button type="button" id="oito" onclick="insert('8')">8</button>
+                                        <button type="button" id="nove"  onclick="insert('9')"> 9</button>
+                                            <button type="button" id="zero"  onclick="insert('0')">0 </button>
+      </form>
+    </div>
+</body>
+</html>

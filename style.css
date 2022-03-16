@@ -1,0 +1,79 @@
+
+
+#calculadora{
+    background-color: lightskyblue;
+    text-align: center;
+    border: solid 5px black;
+    display: inline-block;
+    opacity: 0.8;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    
+}
+
+#aparenciaVisor{
+
+ margin-top: 30px;
+ margin-left: 20px;
+ background-color: white;
+ width: 250px;
+ height: 40px;
+ border-radius: 5px;
+
+
+}
+
+#visor{
+    text-align:right;
+    padding: 10px;
+}
+
+#operações{
+    
+    padding-top: 20px;
+    padding: 10px;
+
+}
+
+#numeros{
+    display: inline-block;
+    
+    padding: 10px;
+
+}
+
+#um, #dois, #tres, #quatro, #cinco, #seis, #sete, #oito, #nove, #zero{
+    border: solid 2px black;
+    margin: 5px;
+    width: 50px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+#mais,#menos,#multiplicar,#dividir{
+
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+#deletar{
+    display: inline-block;
+    margin-right: 30px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 60px;
+    height: 70px;
+}
+#igual{
+    display: inline-block;
+    margin-right: 30px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 40px;
+    height: 70px;
+}
+
